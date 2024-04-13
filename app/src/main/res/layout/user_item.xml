@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/idItemUserId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="User ID"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/idItemName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="end"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/idItemEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Email"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_blue_light"/>
+
+    <TextView
+        android:id="@+id/idItemPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Phone"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_green_light"/>
+
+    <TextView
+        android:id="@+id/idItemWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Website"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_orange_light"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
